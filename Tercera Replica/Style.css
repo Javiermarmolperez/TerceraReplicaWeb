@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+
+}
+
+
+header{
+    height: 550px;
+    background-image: url("images/header.jpg");
+    background-size: 100%;
+    background-position-y: -280px;
+    background-repeat: no-repeat;
+}
+header nav {
+    width: 100%;
+    height: 100px;
+    margin-top: -50px;
+}
+nav li{
+    display:inline;
+    padding-left:10px;
+    padding-right:10px;
+    float: right;
+    margin-right: 20px;
+    
+}
+a{
+    color: #B0A38E;
+}
+
+nav img {
+    width: 20px;
+}
+
+
+#logo{
+
+    width: 100px;
+
+}
+    
+#logo img{
+    margin: 25px;
+    width: 100%;
+}
+h2{
+    color: #4A4A4A;
+    font-size: 70px;
+    text-align: center;
+    text-justify: auto;
+}
+
+#aboutUs{
+    display: grid;
+    grid-template-columns: 200px 300px 200px 1fr 200px;
+    grid-template-rows: 90px 80px 80px 80px 80px 50px ;
+    column-gap: 25px;
+    justify-items: initial;
+}
+
+#aboutUs h1 {
+    margin-top: 30px;
+    grid-row: 1/2;
+    grid-column: 2/3;
+}
+
+#titulo1 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+#titulo2 {
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+#descripcion{
+    grid-column: 2/3;
+    grid-row: 3/7;
+}
+
+#services1{
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+
+#services2{
+    grid-column: 3/4;
+    grid-row: 4/5;
+}
+
+#services3{
+    grid-column: 3/4;
+    grid-row: 5/6;
+}
+
+.imgService{
+    width: 40px;
+}
+
+#maceta{
+    grid-column: 4/5;
+    grid-row: 2/6;
+    background-image: url("images/image.jpg");
+    background-size: 160%;
+    background-position-x:0px;
+    background-repeat: no-repeat;
+}
+
+#categories {
+    display: grid;
+    grid-template-rows: 80px 450px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.fondoConHover {
+    background-color:rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: 100%;
+}
+
+.fondoConHover h2{
+    padding-top: 170px;
+}
+
+.fondoConHover:hover{
+    opacity: 0;
+}
+
+#bathroom{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    background-image:url("images/bathroom.jpg");
+    background-repeat: no-repeat;
+    background-size: 180%;
+    background-position-x: -200px;
+}
+
+#bathroom:hover{
+    scale: 2;
+}
+
+#kitchen{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-image: url("images/kitchen.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+
+
+#bedRoom{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    background-image: url("images/bedroom.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+
+#livingRoom{
+    grid-column: 4/5;
+    grid-row: 2/3;
+    background-image:url("images/livingroom.jpg");
+    background-repeat: no-repeat;
+    background-size: 220%;
+    background-position-x: -130px;
+}
+
+
+#categories h1{
+    margin-left: 200px;
+    margin-top: 25px;
+}
+
+#categories h2{
+    font-size: 40px;
+    color: white;
+}
+
+#titulo {
+    background-color: #F3F3F3;
+    grid-row: 1/2;
+    grid-column: 1/5;
+}
+
+
+footer {
+    height: 40px;
+    background-color: #F3F3F3;
+    text-align: center;
+    color: #B0A38E;
+}
